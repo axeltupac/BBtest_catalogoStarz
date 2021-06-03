@@ -8,7 +8,7 @@ def get_pelis_ids():
     try:
         response = requests.get(url)
     except:
-        print('Other error has occurred: ')
+        print('An error has occurred: ')
     pelis = response.json()
     pelis = pelis['blocks'][-1]['playContentsById']
     return pelis
@@ -17,7 +17,7 @@ def get_series_ids():
     try:
         response= requests.get(url_series)
     except:
-        print('Other error has ocurred: ')
+        print('An error has ocurred: ')
     series= response.json()
     series= series['blocks'][-1]['playContentsById']
     return series
