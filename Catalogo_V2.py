@@ -64,7 +64,6 @@ def get_content(id_):
 
    
     try:
-        print('entra')
         data_content = response['playContentArray']['playContents'][0]
     except Exception:
         print('no entra')
