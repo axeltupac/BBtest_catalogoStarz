@@ -4,6 +4,6 @@ python catalogo.py</br>
 esto generara dos archivos txt con la informacion de las peliculas y las series respectivamente</br>
 
 El segundo  catagolo trae la informacion mas ordeanada pero esta toda junta</br>
-genera un archivo txt llamado toda_lainfo con la informacion de todas las peliculas y series del catalogo</br>
+genera un archivo txt llamado toda_lainfo con la informacion de todas las peliculas y series del catalogo como tambien mostrarla la informacion en pantalla</br>
 para utilzar este segundo script se debe usar el siguiente comando (suponiendo que tiene instalado python3 y tiene permisos de ejecucion de ese archivo)</br>
 python Catalogo_V2
